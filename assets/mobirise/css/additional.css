@@ -2518,3 +2518,9 @@ a {
     }
   }
 }
+@media screen and (max-width:1024px){
+  .cid-u04C3Nv0YA .content-wrap{
+    position: absolute;
+    top: -400px !important;
+  }
+}
