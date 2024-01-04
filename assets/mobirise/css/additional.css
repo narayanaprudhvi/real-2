@@ -2656,7 +2656,7 @@ a {
   #textS {
     top: -50%;
   }
-  .mbr-section-btn .btn {
+  .learn-more-button a {
     margin-top: 100px !important;
   }
 }
