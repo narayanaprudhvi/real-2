@@ -2518,84 +2518,144 @@ a {
     }
   }
 }
-@media screen and (max-width:1024px){
-  .cid-u04C3Nv0YA .content-wrap{
+@media screen and (max-width: 1024px) {
+  .cid-u04C3Nv0YA .content-wrap {
     position: absolute;
     top: -400px !important;
   }
 }
-.property-details{
+.property-details {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
 }
-.properties strong{
+.properties strong {
   text-align: center;
   display: block;
   margin-top: 16px;
   color: #ffffff;
-  letter-spacing : 0.2rem;
+  letter-spacing: 0.2rem;
   font-size: 20px;
 }
-.explore-all-button{
+.explore-all-button {
   display: flex;
   justify-content: center;
   margin-top: 24px !important;
 }
-.explore-all-button a{
+.explore-all-button a {
   padding: 20px 34px;
   font-size: 24px;
   border-radius: 100px;
 }
-.tac{
+.tac {
   text-align: center;
 }
-.p-100{
+.p-100 {
   padding: 100px;
-  @media screen and (max-width:767px) {
+  @media screen and (max-width: 767px) {
     padding: 30px !important;
   }
 }
-.p-50{
+.p-50 {
   padding: 50px 0 50px 100px;
-  @media screen and (max-width:767px) {
+  @media screen and (max-width: 767px) {
     padding: 16px !important;
   }
 }
-.back-to-home{
+.back-to-home {
   display: flex;
   color: black !important;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.09rem;
 }
-.back-to-home svg{
+.back-to-home svg {
   margin-right: 6px;
 }
-.width-fit{
+.width-fit {
   width: fit-content !important;
 }
-.yellow-color{
- color: var(--primary-color); 
+.yellow-color {
+  color: var(--primary-color);
 }
-.unlock-line{
+.unlock-line {
   margin-top: 16px;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.2rem;
 }
 
-.explore-homes{
-  background: color-mix( in srgb, var(--dominant-color, #0f1305));
+.explore-homes {
+  background: color-mix(in srgb, var(--dominant-color, #0f1305));
   row-gap: 36px;
 }
-.single-home h5{
+.single-home h5 {
   margin-top: 16px;
   text-align: center;
 }
-.mt-30{
+.mt-30 {
   margin-top: 30px !important;
 }
-.lh-30{
+.lh-30 {
   line-height: 30px !important;
+}
+/* "Quality Living, Trusted Service",
+          "Destination: DS Dream Homes",
+          "Turning Keys, Opening Doors", */
+
+#content {
+  position: absolute;
+  left: 40%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  width: 300px;
+  color: #fff;
+  font-size: 30px;
+}
+#content div {
+  position: absolute;
+  font-family: tahoma;
+}
+#center-txt {
+  color: #88ce02;
+}
+
+#textS {
+  color: #000;
+  position: absolute;
+  left: 50%;
+  top: -30%;
+  transform: translate(-50%, -50%);
+  font-family: "Oswald", tahoma;
+  font-size: 24.5vw;
+  text-align: center;
+  white-space: nowrap;
+  opacity: 0.2;
+}
+.gsap-tweenmax {
+  position: absolute;
+  left: 48%;
+}
+.banner-content {
+  position: relative;
+  top: -40%;
+}
+.learn-more-button a {
+  margin-top: 100px !important;
+}
+@media screen and (max-width: 900px) {
+  .gsap-tweenmax {
+    left: 20% !important;
+  }
+  #content {
+    font-size: 24px !important;
+    width: 50px !important;
+  }
+  #textS {
+    top: -50%;
+  }
+  .mbr-section-btn .btn {
+    margin-top: 100px !important;
+  }
 }
