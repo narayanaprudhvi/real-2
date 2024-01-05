@@ -2660,3 +2660,7 @@ a {
     margin-top: 100px !important;
   }
 }
+.pl-pr-4{
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
