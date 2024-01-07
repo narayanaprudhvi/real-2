@@ -2737,3 +2737,33 @@ a {
   z-index: 1024 !important;
   padding: 16px !important;
 }
+.modal {
+  height: auto !important;
+}
+.visit-modal-main h1{
+  font-size: 26px;
+  font-weight: 600;
+}
+.visit-modal-body textarea {
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+.visit-modal-body label{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 14px;
+}
+.visit-modal-body{
+  padding-top: 0;
+}
+
+.visit-inputs{
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
