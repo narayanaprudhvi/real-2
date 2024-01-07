@@ -47,6 +47,8 @@
     <!--  http://127.0.0.1:5500/assets/images/photo-1564767609342-620cb19b2357.jpeg -->
   </head>
   <body>
+    <button class="btn btn-primary scroll-to-top-button" onclick="scrollToTop()"
+     id="scrollToTopBtn" title="Go to top">&#8593;</button>
     <section
       class="menu menu2 cid-u04C3Nv04u"
       once="menu"
@@ -1504,6 +1506,33 @@
       }
 
       /* a Pen by Diaco m.lotfollahi  : https://diacodesign.com */
+    </script>
+  
+    <script>
+      // your_script.js
+
+// Get the button
+var scrollToTopButton = document.getElementById("scrollToTopBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopButton.style.display = "block";
+    } else {
+        scrollToTopButton.style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function scrollToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+
     </script>
   </body>
 </html>

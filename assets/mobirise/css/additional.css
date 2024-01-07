@@ -2730,3 +2730,10 @@ a {
   animation-delay: 8s;
 } */
 /* testimonials slider */
+.scroll-to-top-button {
+  position: sticky;
+  top: 86vh;
+  margin-left: auto;
+  z-index: 1024 !important;
+  padding: 16px !important;
+}
