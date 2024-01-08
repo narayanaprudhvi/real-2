@@ -2737,6 +2737,10 @@ a {
   z-index: 1024 !important;
   padding: 16px !important;
 }
+.call-button{
+ font-size: 16px !important;
+ color: black !important;
+}
 .modal {
   height: auto !important;
 }
@@ -2765,5 +2769,10 @@ a {
   border: 1px solid rgba(128, 128, 128, 0.5);
   width: 100%;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 4px;
+}
+.visit-submit-button{
+  padding: 10px 20px !important;
+  border-radius: 10px !important;
+  margin: 0 !important;
 }
