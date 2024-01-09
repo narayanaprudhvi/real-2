@@ -2813,10 +2813,10 @@ a {
     padding-left: 40px !important;
     padding-right: 40px !important;
   }
-  .srigandha-detailss{
+  .srigandha-detailss {
     padding-top: 10px !important;
   }
-  .srigandha-detailss.cid-u04C3Nv24n{
+  .srigandha-detailss.cid-u04C3Nv24n {
     padding-bottom: 20px !important;
   }
   .srigandha-homes-main {
@@ -2827,7 +2827,7 @@ a {
     display: flex;
     flex-direction: column;
   }
-  .new-row{
+  .new-row {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
@@ -2878,4 +2878,38 @@ a {
   font-size: 10px !important;
   line-height: 16px !important;
 }
+.fs-50 {
+  font-size: 50px !important;
+}
+.list-amenities {
+  text-align: center !important;
+}
+.amenities-cards {
+  height: 100%;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid #f9c74f !important;
+}
+.amenities-cards-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+.amenities-cards h1 {
+  font-size: 18px !important;
+  margin-bottom: 0 !important;
+}
+.our-location-map{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
+.our-location-map .mappp{
+  margin-top: 40px;
+  padding: 60px;
+  border-radius: 20px;
+  background: white;
+  border: 1px solid #f9c74f;
+}
