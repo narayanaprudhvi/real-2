@@ -47,6 +47,34 @@
     <link rel="stylesheet" href="./assets/mobirise/css/additional.css" />
   </head>
   <body>
+    <button class="btn btn-primary scroll-to-top-button" onclick="scrollToTop()" id="scrollToTopBtn" style="display: none;"
+    title="Go to top">&#8593;</button>
+    <script>
+      // your_script.js
+  
+      // Get the button
+      var scrollToTopButton = document.getElementById("scrollToTopBtn");
+  
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+  
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          scrollToTopButton.style.display = "block";
+        } else {
+          scrollToTopButton.style.display = "none";
+        }
+      }
+  
+      // When the user clicks on the button, scroll to the top of the document
+      function scrollToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+      }
+  
+    </script>
     <main class="srigandha-homes-main">
       <a class="width-fit back-to-home p-50" href="./DS-exploreAll.html">
         <svg
