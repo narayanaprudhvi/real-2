@@ -849,7 +849,7 @@ html {
   flex-shrink: 0;
   align-items: center;
   margin-right: 0;
-  padding: 10px 0;
+  padding: 10px 0 10px 20px !important;
   transition: all 0.3s;
   word-break: break-word;
   z-index: 1;
@@ -2785,4 +2785,63 @@ a {
   text-align: center;
   margin-top: 18px;
   font-size: 12px !important;
+}
+.single-home img{
+  height: 200px !important;
+  width: 300px !important;
+}
+.pl-pr-90{
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+}
+.projects-detailings .img-wrapper img{
+  height: 500px !important;
+}
+.pic-ctn.projects-detailings{
+  height: 567px !important;
+}
+.srigandha-detailss{
+  background-color: transparent !important;
+}
+.haslee-free img{
+  height: 100px;
+  width: 100px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.haslee-free p, .near-distance-list li {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.2rem;
+}
+.near-distance-list li{
+  margin-top: 12px;
+}
+
+.distance-image img{
+  height: 200px;
+  width: 200px;
+}
+.promotors-developers img{
+  height: 300px;
+  width: 200px;
+  background-size: contain;
+}
+.promotors-developers p{
+  font-size: 20px;
+  margin-top: 16px;
+  line-height: 30px;
+}
+.call-us-button{
+  background: #f9c74f;
+  color: white !important;
+  padding: 20px;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 16px !important;
+  letter-spacing: 0.1rem !important;
+}
+.disclaimer-text{
+  font-size: 10px !important;
+  line-height: 16px !important;
 }
