@@ -2788,7 +2788,7 @@ a {
 }
 .single-home img {
   height: 200px !important;
-  width: 300px !important;
+  width: 100% !important;
 }
 .pl-pr-90 {
   padding-left: 90px !important;
