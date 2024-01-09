@@ -2589,10 +2589,7 @@ a {
   background: color-mix(in srgb, var(--dominant-color, #0f1305));
   row-gap: 36px;
 }
-.single-home h5 {
-  margin-top: 16px;
-  text-align: center;
-}
+
 .mt-30 {
   margin-top: 30px !important;
 }
@@ -2790,6 +2787,14 @@ a {
   height: 200px !important;
   width: 100% !important;
 }
+.single-home a h5{
+  color: #000000 !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  margin-top: 16px;
+  text-align: center;
+}
+
 .pl-pr-90 {
   padding-left: 90px !important;
   padding-right: 90px !important;
@@ -2894,7 +2899,7 @@ a {
 .amenities-cards-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 10px;
+  gap: 20px;
 }
 .amenities-cards h1 {
   font-size: 18px !important;
@@ -2912,4 +2917,13 @@ a {
   border-radius: 20px;
   background: white;
   border: 1px solid #f9c74f;
+}
+.project-pics-grid.amenities-cards-main .img-wrapper img{
+  height: 222px !important;
+}
+.fw700{
+  font-weight: 700 !important;
+}
+.amenities-cards-main.property-details .properties img{
+  height: 300px !important;
 }
