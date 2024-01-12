@@ -18,3 +18,9 @@ function scrollToTopp() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
+
+function reloadSubmit(){
+  window.location.reload();
+  setTimeout(() => {
+  }, 200);
+}
