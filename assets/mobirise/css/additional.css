@@ -2921,9 +2921,12 @@ a {
 .project-pics-grid.amenities-cards-main .img-wrapper img{
   height: 222px !important;
 }
+.fw600{
+  font-weight: 6  00 !important;
+}
 .fw700{
   font-weight: 700 !important;
 }
 .amenities-cards-main.property-details .properties img{
   height: 300px !important;
-}
+} 
